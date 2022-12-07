@@ -1,0 +1,29 @@
+.LeftBar{
+    grid-area: LeftBar;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 3vh 5vw 0 7vw;
+    .LeftBar__logo{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        
+        .LeftBar__logo_img{
+            width: 6.5vw;
+            margin-bottom: 10px;
+        }
+        .LeftBar__logo_text{    
+            text-transform: uppercase;
+            font-family: 'Montserrat';
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 30px;
+            color: #000000;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #A4ACAD;
+        }
+    }
+}

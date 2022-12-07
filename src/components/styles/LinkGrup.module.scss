@@ -1,0 +1,15 @@
+.LinkGrup{
+    margin-left: 16vw;
+    display: flex;
+    gap: 0.8em;
+    .LinkGrup__link{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #111111;
+        cursor: pointer;
+        &:hover{
+            color: #FF9846;
+        }
+    }
+}

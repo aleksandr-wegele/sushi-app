@@ -1,0 +1,27 @@
+.Nav{
+    .Nav__list{
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1vh;
+        .Nav__list_item{
+            display: flex;
+            align-items: center;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.3rem;
+            color: #000000;
+            cursor: pointer;
+            &:hover{
+                color: #FF9846;
+            }
+            .Nav__list_item__img{
+                width: 1.5vw;
+                margin-right: 10px;
+            }
+        }
+        
+    }
+
+}

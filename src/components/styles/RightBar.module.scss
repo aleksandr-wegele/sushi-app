@@ -1,0 +1,9 @@
+.RightBar{
+    grid-area: RightBar;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    margin-top: 5vh;
+    background: #ffffff;
+}

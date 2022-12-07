@@ -1,0 +1,10 @@
+.Footer{
+    background:#F2F2F2;
+    padding: 20px 0;
+    grid-area: Footer;
+    .content__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 2vh 3vw;
+      }
+}
